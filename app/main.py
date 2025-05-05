@@ -20,7 +20,8 @@ app.add_middleware(
 
 # Load tag hierarchy from JSON file
 def load_tag_hierarchy():
-    with open("tag_hierarchy.json", "r") as f:
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    with open(os.path.join(current_dir, "tag_hierarchy.json"), "r") as f:
         return json.load(f)
 
 # Tag hierarchy structure
