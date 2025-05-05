@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from typing import List, Dict
 import json
 import os
-from tag_suggester import suggest_tags
-from asset_tags_suggester import suggest_asset_tags
+from app.tag_suggester import suggest_tags
+from app.asset_tags_suggester import suggest_asset_tags
 
 app = FastAPI(title="Template Tagging Helper")
 
