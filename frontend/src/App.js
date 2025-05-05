@@ -65,7 +65,7 @@ function App() {
     setConditionalTags([]);
 
     try {
-      const response = await axios.post('http://localhost:8001/api/suggest_tags', {
+      const response = await axios.post('/api/suggest_tags', {
         description: description,
         type: tagType
       });
