@@ -1,0 +1,26 @@
+{
+    "qashqai": {
+        "years": ["2015", "2017", "2018", "2020", "2021", "2022", "2024"],
+        "keywords": ["qashqai", "qashqai-model", "qq", "qash"]
+    },
+    "juke": {
+        "years": ["2015", "2017", "2018", "2020", "2021", "2022", "2024"],
+        "keywords": ["juke", "juke-model", "juke-ev"]
+    },
+    "x-trail": {
+        "years": ["2015", "2017", "2018", "2020", "2021", "2022", "2024"],
+        "keywords": ["x-trail", "xtrail", "xt"]
+    },
+    "leaf": {
+        "years": ["2015", "2017", "2018", "2020", "2021", "2022", "2024"],
+        "keywords": ["leaf", "leaf-model", "leaf-ev"]
+    },
+    "micra": {
+        "years": ["2015", "2017", "2018", "2020", "2021", "2022", "2024"],
+        "keywords": ["micra", "micra-model"]
+    },
+    "ariya": {
+        "years": ["2020", "2021", "2022", "2024"],
+        "keywords": ["ariya", "ariya-model", "ariya-ev"]
+    }
+} 

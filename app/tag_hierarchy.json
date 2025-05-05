@@ -1,0 +1,23 @@
+{
+    "filter": {
+        "categories": ["lcv", "fleet", "aftersales", "campaign", "vehicle", "other", "pc"],
+        "subcategories": {
+            "vehicle": ["leaf", "ariya", "qashqai", "juke", "micra", "x-trail", "env200", "gt-r", "navara", "primastar", "interstar", "townstar", "nv250", "nv400", "crosscarline", "interstar2024"],
+            "lcv": ["model", "range", "env200", "nv200", "navara", "nv400", "nv300", "nt400", "nv250", "primastar", "interstar", "townstar", "electrictownstar"],
+            "fleet": ["icon", "qashqai", "x-trail", "model", "leaf", "usedcars"],
+            "aftersales": ["icon", "asset", "seasonal", "maintenance", "others", "5year", "healthcheck", "accessories", "ab_products", "parts", "socialmedia", "other"],
+            "campaign": ["icon", "ucl", "christmas", "concept", "baseplate", "baseplate2022"],
+            "other": ["baseplate"],
+            "pc": ["model", "crosscarline", "juke", "qashqai", "x-trail", "navara", "370Z", "note", "leaf", "micra", "gt-r", "nismo", "concept", "micra2017", "qashqai2017", "env200", "ariya"]
+        }
+    },
+    "system": {
+        "media": ["print", "banner", "edm", "dm", "pricelectern", "pos", "digiscreen", "A4_leaflet", "html5-banner", "dot", "socialmedia", "socialmedia-as", "aftersales", "aftersales/socialmedia"],
+        "size": ["fullpage", "halfpage", "140x180", "188x260", "quarterpage", "970x250px", "300x600px", "300x250px", "970x90px", "728x90px", "dm", "a4", "728x240px", "160x600px", "336x280px", "email", "aftersales", "responsive", "digiscreen", "250x250px", "250x360px", "468x60px", "468x400px", "600x100px", "930x180px", "980x120px", "980x250px", "980x400px", "995x200px", "1000x200px", "1100x180px", "1983x546px", "180x1000px", "1010x150px", "938x143px", "980x300px", "500x360px", "static", "story", "custom", "linkad"]
+    },
+    "language": ["danish", "finnish", "norwegian", "swedish", "estonian", "latvian", "lithuanian", "russian", "english"],
+    "car": {
+        "angle": ["front", "rear", "profile", "right", "left", "front/right", "front/left", "rear/right", "rear/left"],
+        "model": ["juke", "x-trail", "navara", "370Z", "leaf", "nv200", "nv400", "pricelectern", "env200", "gt-r", "qashqai", "note", "micra", "range", "nv300", "fleet", "env200-evalia", "env200-van", "concept", "nv250", "ariya"]
+    }
+} 
