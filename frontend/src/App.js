@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   Container,
   Paper,
@@ -27,7 +27,6 @@ const steps = ['describe', 'review', 'save'];
 function App() {
   const [activeStep, setActiveStep] = useState(0);
   const [description, setDescription] = useState('');
-  const [filename, setFilename] = useState('');
   const [suggestions, setSuggestions] = useState([]);
   const [loading, setLoading] = useState(false);
   const [selectedTags, setSelectedTags] = useState([]);
@@ -50,7 +49,6 @@ function App() {
 
   const handleStartNew = () => {
     setDescription('');
-    setFilename('');
     setSuggestions([]);
     setSelectedTags([]);
     setIsFallback(false);
